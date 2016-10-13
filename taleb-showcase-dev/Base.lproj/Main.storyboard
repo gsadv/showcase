@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+        </array>
+        <array key="NotoSans-Regular.ttf">
+            <string>NotoSans</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="taleb_showcase_dev" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +26,134 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71D-fJ-9pZ">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In / Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SP2-Rw-lj9">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="7j6-Dq-GHb"/>
+                                            <constraint firstAttribute="width" constant="163" id="Dkf-jK-364"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.31764705879999999" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="MFn-eS-cn1"/>
+                                    <constraint firstItem="SP2-Rw-lj9" firstAttribute="top" secondItem="71D-fJ-9pZ" secondAttribute="top" constant="41" id="aBK-VC-MyC"/>
+                                    <constraint firstItem="SP2-Rw-lj9" firstAttribute="leading" secondItem="71D-fJ-9pZ" secondAttribute="leading" constant="16" id="py3-2i-lIW"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6T4-vJ-bFm" customClass="MaterialView" customModule="taleb_showcase_dev" customModuleProvider="target">
+                                <frame key="frameInset" minX="16" minY="69" width="343" height="128"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jCv-oO-dla">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Oij-1X-ueW"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7c-SR-WwC">
+                                                <color key="backgroundColor" red="0.11764705882352941" green="0.53333333333333333" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                                <state key="normal" title="FACEBOOK LOGIN">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="jCv-oO-dla" firstAttribute="top" secondItem="6T4-vJ-bFm" secondAttribute="top" constant="10" id="Xea-Q4-xdw"/>
+                                    <constraint firstItem="jCv-oO-dla" firstAttribute="leading" secondItem="6T4-vJ-bFm" secondAttribute="leading" constant="20" id="crz-O9-cQR"/>
+                                    <constraint firstAttribute="trailing" secondItem="jCv-oO-dla" secondAttribute="trailing" constant="20" id="eA5-fs-UJR"/>
+                                    <constraint firstAttribute="bottom" secondItem="jCv-oO-dla" secondAttribute="bottom" constant="10" id="qgt-FJ-Nne"/>
+                                    <constraint firstAttribute="height" constant="128" id="tsZ-oT-qQN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XtF-8p-kwH" customClass="MaterialView" customModule="taleb_showcase_dev" customModuleProvider="target">
+                                <frame key="frameInset" minX="16" minY="216" width="343" height="431"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Login / Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pth-vw-Wpr">
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="1Vk-2V-Mv0"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="163" id="Lr9-2C-pIL"/>
+                                            <constraint firstAttribute="width" constant="163" id="vYb-11-oAW"/>
+                                            <constraint firstAttribute="height" constant="21" id="vey-jl-dE4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email adress" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l8A-EG-XOc" customClass="MaterialTextFiels" customModule="taleb_showcase_dev" customModuleProvider="target">
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="QWZ-a6-FXT"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gQL-gN-daB" customClass="MaterialTextFiels" customModule="taleb_showcase_dev" customModuleProvider="target">
+                                        <frame key="frameInset" minX="20" minY="87" width="303" height="30"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="NcL-5b-WK4"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="UjB-p3-zZk"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxf-x7-O1l">
+                                        <frame key="frameInset" minX="93" minY="160" width="157" height="33"/>
+                                        <color key="backgroundColor" red="0.95686274510000002" green="0.31764705879999999" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="Gwl-5x-sya"/>
+                                            <constraint firstAttribute="width" constant="157" id="yKm-bo-qqq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                        <state key="normal" title="Login / Signup">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="fxf-x7-O1l" firstAttribute="top" secondItem="gQL-gN-daB" secondAttribute="bottom" constant="50" id="ClX-Rz-mLd"/>
+                                    <constraint firstAttribute="trailing" secondItem="l8A-EG-XOc" secondAttribute="trailing" constant="20" id="Dj9-6A-c4K"/>
+                                    <constraint firstItem="pth-vw-Wpr" firstAttribute="leading" secondItem="XtF-8p-kwH" secondAttribute="leading" constant="20" id="Msv-jJ-nGf"/>
+                                    <constraint firstItem="gQL-gN-daB" firstAttribute="leading" secondItem="l8A-EG-XOc" secondAttribute="leading" id="Ny4-bv-Xzf"/>
+                                    <constraint firstItem="gQL-gN-daB" firstAttribute="top" secondItem="l8A-EG-XOc" secondAttribute="bottom" constant="20" id="XRt-8I-ccH"/>
+                                    <constraint firstItem="l8A-EG-XOc" firstAttribute="top" secondItem="pth-vw-Wpr" secondAttribute="bottom" constant="8" id="hO4-jk-ceN"/>
+                                    <constraint firstAttribute="trailing" secondItem="gQL-gN-daB" secondAttribute="trailing" constant="20" id="kBp-QY-tQ3"/>
+                                    <constraint firstItem="fxf-x7-O1l" firstAttribute="centerX" secondItem="XtF-8p-kwH" secondAttribute="centerX" id="r5o-A2-hON"/>
+                                    <constraint firstItem="pth-vw-Wpr" firstAttribute="top" secondItem="XtF-8p-kwH" secondAttribute="top" constant="20" id="zZ9-lL-Iyc"/>
+                                    <constraint firstItem="l8A-EG-XOc" firstAttribute="leading" secondItem="pth-vw-Wpr" secondAttribute="leading" id="zhd-NW-xRs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6T4-vJ-bFm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3jp-2q-Gu8"/>
+                            <constraint firstAttribute="trailing" secondItem="71D-fJ-9pZ" secondAttribute="trailing" id="5fB-ob-PCf"/>
+                            <constraint firstItem="XtF-8p-kwH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="680-uh-0ec"/>
+                            <constraint firstItem="XtF-8p-kwH" firstAttribute="top" secondItem="6T4-vJ-bFm" secondAttribute="bottom" constant="20" id="6SV-hx-fI7"/>
+                            <constraint firstItem="XtF-8p-kwH" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9Gc-9V-lEn"/>
+                            <constraint firstItem="6T4-vJ-bFm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Jas-MY-vUu"/>
+                            <constraint firstItem="71D-fJ-9pZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X4r-GJ-8OO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XtF-8p-kwH" secondAttribute="bottom" constant="20" id="gEp-z0-vou"/>
+                            <constraint firstItem="71D-fJ-9pZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hM6-gK-vYS"/>
+                            <constraint firstItem="6T4-vJ-bFm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="yFn-T9-XdB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="125.4872563718141"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fb-icon" width="65" height="65"/>
+    </resources>
 </document>

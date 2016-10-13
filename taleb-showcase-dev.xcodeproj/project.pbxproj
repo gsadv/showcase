@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B306F8FF1DAFE71A00FFDE15 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306F8FE1DAFE71A00FFDE15 /* MaterialButton.swift */; };
+		B306F9011DB00C6200FFDE15 /* MaterialTextFiels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306F9001DB00C6200FFDE15 /* MaterialTextFiels.swift */; };
 		B359A1171DAFD8FE007CAC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */; };
 		B359A1191DAFD8FE007CAC3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1181DAFD8FE007CAC3D /* ViewController.swift */; };
 		B359A11C1DAFD8FE007CAC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B359A11A1DAFD8FE007CAC3D /* Main.storyboard */; };
 		B359A11E1DAFD8FE007CAC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359A11D1DAFD8FE007CAC3D /* Assets.xcassets */; };
 		B359A1211DAFD8FE007CAC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B359A11F1DAFD8FE007CAC3D /* LaunchScreen.storyboard */; };
+		B359A1301DAFD97B007CAC3D /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12C1DAFD97B007CAC3D /* NotoSans-Bold.ttf */; };
+		B359A1311DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12D1DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf */; };
+		B359A1321DAFD97B007CAC3D /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12E1DAFD97B007CAC3D /* NotoSans-Italic.ttf */; };
+		B359A1331DAFD97B007CAC3D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */; };
+		B359A1351DAFDC0D007CAC3D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1341DAFDC0D007CAC3D /* MaterialView.swift */; };
+		B359A1381DAFDC59007CAC3D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1371DAFDC59007CAC3D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B306F8FE1DAFE71A00FFDE15 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		B306F9001DB00C6200FFDE15 /* MaterialTextFiels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextFiels.swift; sourceTree = "<group>"; };
 		B359A1131DAFD8FE007CAC3D /* taleb-showcase-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taleb-showcase-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B359A1181DAFD8FE007CAC3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		B359A11D1DAFD8FE007CAC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B359A1201DAFD8FE007CAC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B359A1221DAFD8FE007CAC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B359A12C1DAFD97B007CAC3D /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		B359A12D1DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B359A12E1DAFD97B007CAC3D /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		B359A1341DAFDC0D007CAC3D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		B359A1371DAFDC59007CAC3D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,62 @@
 		B359A1151DAFD8FE007CAC3D /* taleb-showcase-dev */ = {
 			isa = PBXGroup;
 			children = (
+				B359A1361DAFDC3F007CAC3D /* Util */,
+				B359A12B1DAFD957007CAC3D /* Resources */,
+				B359A12A1DAFD947007CAC3D /* Model */,
+				B359A1291DAFD93C007CAC3D /* View */,
+				B359A1281DAFD930007CAC3D /* Controller */,
 				B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */,
-				B359A1181DAFD8FE007CAC3D /* ViewController.swift */,
 				B359A11A1DAFD8FE007CAC3D /* Main.storyboard */,
 				B359A11D1DAFD8FE007CAC3D /* Assets.xcassets */,
 				B359A11F1DAFD8FE007CAC3D /* LaunchScreen.storyboard */,
 				B359A1221DAFD8FE007CAC3D /* Info.plist */,
 			);
 			path = "taleb-showcase-dev";
+			sourceTree = "<group>";
+		};
+		B359A1281DAFD930007CAC3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B359A1181DAFD8FE007CAC3D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B359A1291DAFD93C007CAC3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B359A1341DAFDC0D007CAC3D /* MaterialView.swift */,
+				B306F8FE1DAFE71A00FFDE15 /* MaterialButton.swift */,
+				B306F9001DB00C6200FFDE15 /* MaterialTextFiels.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B359A12A1DAFD947007CAC3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B359A12B1DAFD957007CAC3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B359A12C1DAFD97B007CAC3D /* NotoSans-Bold.ttf */,
+				B359A12D1DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf */,
+				B359A12E1DAFD97B007CAC3D /* NotoSans-Italic.ttf */,
+				B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B359A1361DAFDC3F007CAC3D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B359A1371DAFDC59007CAC3D /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +160,7 @@
 				TargetAttributes = {
 					B359A1121DAFD8FE007CAC3D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U7SZ8463B7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +188,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B359A1301DAFD97B007CAC3D /* NotoSans-Bold.ttf in Resources */,
 				B359A1211DAFD8FE007CAC3D /* LaunchScreen.storyboard in Resources */,
+				B359A1311DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf in Resources */,
+				B359A1321DAFD97B007CAC3D /* NotoSans-Italic.ttf in Resources */,
 				B359A11E1DAFD8FE007CAC3D /* Assets.xcassets in Resources */,
 				B359A11C1DAFD8FE007CAC3D /* Main.storyboard in Resources */,
+				B359A1331DAFD97B007CAC3D /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B359A1351DAFDC0D007CAC3D /* MaterialView.swift in Sources */,
 				B359A1191DAFD8FE007CAC3D /* ViewController.swift in Sources */,
 				B359A1171DAFD8FE007CAC3D /* AppDelegate.swift in Sources */,
+				B306F9011DB00C6200FFDE15 /* MaterialTextFiels.swift in Sources */,
+				B359A1381DAFDC59007CAC3D /* Constants.swift in Sources */,
+				B306F8FF1DAFE71A00FFDE15 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7SZ8463B7;
 				INFOPLIST_FILE = "taleb-showcase-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.taleb.taleb-showcase-dev";
@@ -272,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7SZ8463B7;
 				INFOPLIST_FILE = "taleb-showcase-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.taleb.taleb-showcase-dev";
@@ -299,6 +374,7 @@
 				B359A1271DAFD8FE007CAC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
