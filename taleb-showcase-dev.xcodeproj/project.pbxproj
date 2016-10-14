@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CC07948088143EC812D26DE /* Pods_taleb_showcase_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501392A73788B67874FE18BE /* Pods_taleb_showcase_dev.framework */; };
 		B306F8FF1DAFE71A00FFDE15 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306F8FE1DAFE71A00FFDE15 /* MaterialButton.swift */; };
 		B306F9011DB00C6200FFDE15 /* MaterialTextFiels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306F9001DB00C6200FFDE15 /* MaterialTextFiels.swift */; };
+		B3138F861DB0227400AA4ADB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138F851DB0227400AA4ADB /* Bolts.framework */; };
+		B3138F891DB0228700AA4ADB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138F871DB0228700AA4ADB /* FBSDKCoreKit.framework */; };
+		B3138F8A1DB0228700AA4ADB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138F881DB0228700AA4ADB /* FBSDKLoginKit.framework */; };
 		B359A1171DAFD8FE007CAC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */; };
 		B359A1191DAFD8FE007CAC3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1181DAFD8FE007CAC3D /* ViewController.swift */; };
 		B359A11C1DAFD8FE007CAC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B359A11A1DAFD8FE007CAC3D /* Main.storyboard */; };
@@ -23,8 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		501392A73788B67874FE18BE /* Pods_taleb_showcase_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taleb_showcase_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B306F8FE1DAFE71A00FFDE15 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		B306F9001DB00C6200FFDE15 /* MaterialTextFiels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextFiels.swift; sourceTree = "<group>"; };
+		B3138F851DB0227400AA4ADB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B3138F871DB0228700AA4ADB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B3138F881DB0228700AA4ADB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B3138F8B1DB0D99600AA4ADB /* taleb-showcase-dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "taleb-showcase-dev.entitlements"; sourceTree = "<group>"; };
 		B359A1131DAFD8FE007CAC3D /* taleb-showcase-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taleb-showcase-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B359A1181DAFD8FE007CAC3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +47,8 @@
 		B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		B359A1341DAFDC0D007CAC3D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		B359A1371DAFDC59007CAC3D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DFC118728D11CD124A8F34F6 /* Pods-taleb-showcase-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taleb-showcase-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taleb-showcase-dev/Pods-taleb-showcase-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		FE770BDA329936A634CB8F7E /* Pods-taleb-showcase-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taleb-showcase-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-taleb-showcase-dev/Pods-taleb-showcase-dev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +56,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC07948088143EC812D26DE /* Pods_taleb_showcase_dev.framework in Frameworks */,
+				B3138F891DB0228700AA4ADB /* FBSDKCoreKit.framework in Frameworks */,
+				B3138F8A1DB0228700AA4ADB /* FBSDKLoginKit.framework in Frameworks */,
+				B3138F861DB0227400AA4ADB /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E94D2F48EDB85CFC2F54336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFC118728D11CD124A8F34F6 /* Pods-taleb-showcase-dev.debug.xcconfig */,
+				FE770BDA329936A634CB8F7E /* Pods-taleb-showcase-dev.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		835EC2002F1F4F83E55C6323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				501392A73788B67874FE18BE /* Pods_taleb_showcase_dev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3138F841DB0224F00AA4ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3138F871DB0228700AA4ADB /* FBSDKCoreKit.framework */,
+				B3138F881DB0228700AA4ADB /* FBSDKLoginKit.framework */,
+				B3138F851DB0227400AA4ADB /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B359A10A1DAFD8FE007CAC3D = {
 			isa = PBXGroup;
 			children = (
 				B359A1151DAFD8FE007CAC3D /* taleb-showcase-dev */,
 				B359A1141DAFD8FE007CAC3D /* Products */,
+				4E94D2F48EDB85CFC2F54336 /* Pods */,
+				835EC2002F1F4F83E55C6323 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +114,8 @@
 		B359A1151DAFD8FE007CAC3D /* taleb-showcase-dev */ = {
 			isa = PBXGroup;
 			children = (
+				B3138F8B1DB0D99600AA4ADB /* taleb-showcase-dev.entitlements */,
+				B3138F841DB0224F00AA4ADB /* Frameworks */,
 				B359A1361DAFDC3F007CAC3D /* Util */,
 				B359A12B1DAFD957007CAC3D /* Resources */,
 				B359A12A1DAFD947007CAC3D /* Model */,
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B359A1251DAFD8FE007CAC3D /* Build configuration list for PBXNativeTarget "taleb-showcase-dev" */;
 			buildPhases = (
+				41CC60415964516D5447584C /* [CP] Check Pods Manifest.lock */,
 				B359A10F1DAFD8FE007CAC3D /* Sources */,
 				B359A1101DAFD8FE007CAC3D /* Frameworks */,
 				B359A1111DAFD8FE007CAC3D /* Resources */,
+				26BEA9A6321076E2D113F132 /* [CP] Embed Pods Frameworks */,
+				6096B9D12D0CDA756069229B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +211,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = U7SZ8463B7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -199,6 +253,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26BEA9A6321076E2D113F132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taleb-showcase-dev/Pods-taleb-showcase-dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41CC60415964516D5447584C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6096B9D12D0CDA756069229B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taleb-showcase-dev/Pods-taleb-showcase-dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B359A10F1DAFD8FE007CAC3D /* Sources */ = {
@@ -331,9 +433,16 @@
 		};
 		B359A1261DAFD8FE007CAC3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC118728D11CD124A8F34F6 /* Pods-taleb-showcase-dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "taleb-showcase-dev/taleb-showcase-dev.entitlements";
 				DEVELOPMENT_TEAM = U7SZ8463B7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/taleb-showcase-dev",
+				);
 				INFOPLIST_FILE = "taleb-showcase-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.taleb.taleb-showcase-dev";
@@ -344,9 +453,16 @@
 		};
 		B359A1271DAFD8FE007CAC3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE770BDA329936A634CB8F7E /* Pods-taleb-showcase-dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "taleb-showcase-dev/taleb-showcase-dev.entitlements";
 				DEVELOPMENT_TEAM = U7SZ8463B7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/taleb-showcase-dev",
+				);
 				INFOPLIST_FILE = "taleb-showcase-dev/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.taleb.taleb-showcase-dev";
