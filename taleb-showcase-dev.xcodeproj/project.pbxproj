@@ -29,10 +29,12 @@
 		B344D3271DB129B600A21F92 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3261DB129B600A21F92 /* Social.framework */; };
 		B344D3291DB12A1200A21F92 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3281DB12A1200A21F92 /* Twitter.framework */; };
 		B344D32B1DB12A3B00A21F92 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D32A1DB12A3B00A21F92 /* MobileCoreServices.framework */; };
+		B344D32F1DB5F09D00A21F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B344D32E1DB5F09D00A21F92 /* Assets.xcassets */; };
+		B344D3311DB5F7A500A21F92 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344D3301DB5F7A500A21F92 /* FeedVC.swift */; };
+		B344D3331DB6393600A21F92 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344D3321DB6393600A21F92 /* PostCell.swift */; };
 		B359A1171DAFD8FE007CAC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */; };
 		B359A1191DAFD8FE007CAC3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1181DAFD8FE007CAC3D /* ViewController.swift */; };
 		B359A11C1DAFD8FE007CAC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B359A11A1DAFD8FE007CAC3D /* Main.storyboard */; };
-		B359A11E1DAFD8FE007CAC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359A11D1DAFD8FE007CAC3D /* Assets.xcassets */; };
 		B359A1211DAFD8FE007CAC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B359A11F1DAFD8FE007CAC3D /* LaunchScreen.storyboard */; };
 		B359A1301DAFD97B007CAC3D /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12C1DAFD97B007CAC3D /* NotoSans-Bold.ttf */; };
 		B359A1311DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12D1DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf */; };
@@ -68,11 +70,13 @@
 		B344D3261DB129B600A21F92 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		B344D3281DB12A1200A21F92 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		B344D32A1DB12A3B00A21F92 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B344D32E1DB5F09D00A21F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B344D3301DB5F7A500A21F92 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		B344D3321DB6393600A21F92 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		B359A1131DAFD8FE007CAC3D /* taleb-showcase-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taleb-showcase-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B359A1181DAFD8FE007CAC3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B359A11B1DAFD8FE007CAC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B359A11D1DAFD8FE007CAC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B359A1201DAFD8FE007CAC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B359A1221DAFD8FE007CAC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B359A12C1DAFD97B007CAC3D /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -200,9 +204,9 @@
 				B359A1281DAFD930007CAC3D /* Controller */,
 				B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */,
 				B359A11A1DAFD8FE007CAC3D /* Main.storyboard */,
-				B359A11D1DAFD8FE007CAC3D /* Assets.xcassets */,
 				B359A11F1DAFD8FE007CAC3D /* LaunchScreen.storyboard */,
 				B359A1221DAFD8FE007CAC3D /* Info.plist */,
+				B344D32E1DB5F09D00A21F92 /* Assets.xcassets */,
 				B3F6D0761DB0F6FB0040B6D2 /* GoogleService-Info.plist */,
 			);
 			path = "taleb-showcase-dev";
@@ -212,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				B359A1181DAFD8FE007CAC3D /* ViewController.swift */,
+				B344D3301DB5F7A500A21F92 /* FeedVC.swift */,
+				B344D3321DB6393600A21F92 /* PostCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -325,8 +331,8 @@
 				B359A1211DAFD8FE007CAC3D /* LaunchScreen.storyboard in Resources */,
 				B359A1311DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf in Resources */,
 				B359A1321DAFD97B007CAC3D /* NotoSans-Italic.ttf in Resources */,
-				B359A11E1DAFD8FE007CAC3D /* Assets.xcassets in Resources */,
 				B359A11C1DAFD8FE007CAC3D /* Main.storyboard in Resources */,
+				B344D32F1DB5F09D00A21F92 /* Assets.xcassets in Resources */,
 				B359A1331DAFD97B007CAC3D /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +396,8 @@
 				B3138F8E1DB0E53000AA4ADB /* DataService.swift in Sources */,
 				B359A1191DAFD8FE007CAC3D /* ViewController.swift in Sources */,
 				B359A1171DAFD8FE007CAC3D /* AppDelegate.swift in Sources */,
+				B344D3311DB5F7A500A21F92 /* FeedVC.swift in Sources */,
+				B344D3331DB6393600A21F92 /* PostCell.swift in Sources */,
 				B306F9011DB00C6200FFDE15 /* MaterialTextFiels.swift in Sources */,
 				B359A1381DAFDC59007CAC3D /* Constants.swift in Sources */,
 				B306F8FF1DAFE71A00FFDE15 /* MaterialButton.swift in Sources */,
