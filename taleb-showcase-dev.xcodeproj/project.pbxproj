@@ -13,6 +13,22 @@
 		B3138F861DB0227400AA4ADB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138F851DB0227400AA4ADB /* Bolts.framework */; };
 		B3138F891DB0228700AA4ADB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138F871DB0228700AA4ADB /* FBSDKCoreKit.framework */; };
 		B3138F8A1DB0228700AA4ADB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3138F881DB0228700AA4ADB /* FBSDKLoginKit.framework */; };
+		B3138F8E1DB0E53000AA4ADB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3138F8D1DB0E53000AA4ADB /* DataService.swift */; };
+		B344D30D1DB1256F00A21F92 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D30C1DB1256F00A21F92 /* Parse.framework */; };
+		B344D3111DB1257A00A21F92 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D30F1DB1257A00A21F92 /* ParseFacebookUtilsV4.framework */; };
+		B344D3131DB1291200A21F92 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3121DB1291200A21F92 /* AudioToolbox.framework */; };
+		B344D3151DB1291E00A21F92 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3141DB1291E00A21F92 /* CFNetwork.framework */; };
+		B344D3171DB1292700A21F92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3161DB1292700A21F92 /* CoreGraphics.framework */; };
+		B344D3191DB1292F00A21F92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3181DB1292F00A21F92 /* CoreLocation.framework */; };
+		B344D31B1DB1293800A21F92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D31A1DB1293800A21F92 /* QuartzCore.framework */; };
+		B344D31D1DB1294500A21F92 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D31C1DB1294500A21F92 /* Security.framework */; };
+		B344D31F1DB1295100A21F92 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D31E1DB1295100A21F92 /* StoreKit.framework */; };
+		B344D3211DB1295A00A21F92 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3201DB1295A00A21F92 /* SystemConfiguration.framework */; };
+		B344D3231DB1296600A21F92 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3221DB1296600A21F92 /* libz.tbd */; };
+		B344D3251DB1297500A21F92 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3241DB1297500A21F92 /* libsqlite3.tbd */; };
+		B344D3271DB129B600A21F92 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3261DB129B600A21F92 /* Social.framework */; };
+		B344D3291DB12A1200A21F92 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D3281DB12A1200A21F92 /* Twitter.framework */; };
+		B344D32B1DB12A3B00A21F92 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344D32A1DB12A3B00A21F92 /* MobileCoreServices.framework */; };
 		B359A1171DAFD8FE007CAC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */; };
 		B359A1191DAFD8FE007CAC3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1181DAFD8FE007CAC3D /* ViewController.swift */; };
 		B359A11C1DAFD8FE007CAC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B359A11A1DAFD8FE007CAC3D /* Main.storyboard */; };
@@ -24,6 +40,8 @@
 		B359A1331DAFD97B007CAC3D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */; };
 		B359A1351DAFDC0D007CAC3D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1341DAFDC0D007CAC3D /* MaterialView.swift */; };
 		B359A1381DAFDC59007CAC3D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1371DAFDC59007CAC3D /* Constants.swift */; };
+		B3F6D0771DB0F6FB0040B6D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3F6D0761DB0F6FB0040B6D2 /* GoogleService-Info.plist */; };
+		B3F6D07B1DB11B600040B6D2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6D07A1DB11B600040B6D2 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +52,22 @@
 		B3138F871DB0228700AA4ADB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		B3138F881DB0228700AA4ADB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		B3138F8B1DB0D99600AA4ADB /* taleb-showcase-dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "taleb-showcase-dev.entitlements"; sourceTree = "<group>"; };
+		B3138F8D1DB0E53000AA4ADB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B344D30C1DB1256F00A21F92 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B344D30F1DB1257A00A21F92 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		B344D3121DB1291200A21F92 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B344D3141DB1291E00A21F92 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B344D3161DB1292700A21F92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B344D3181DB1292F00A21F92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B344D31A1DB1293800A21F92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B344D31C1DB1294500A21F92 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B344D31E1DB1295100A21F92 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B344D3201DB1295A00A21F92 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B344D3221DB1296600A21F92 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B344D3241DB1297500A21F92 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B344D3261DB129B600A21F92 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B344D3281DB12A1200A21F92 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		B344D32A1DB12A3B00A21F92 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B359A1131DAFD8FE007CAC3D /* taleb-showcase-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taleb-showcase-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B359A1161DAFD8FE007CAC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B359A1181DAFD8FE007CAC3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +81,8 @@
 		B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		B359A1341DAFDC0D007CAC3D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		B359A1371DAFDC59007CAC3D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3F6D0761DB0F6FB0040B6D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3F6D07A1DB11B600040B6D2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		DFC118728D11CD124A8F34F6 /* Pods-taleb-showcase-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taleb-showcase-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taleb-showcase-dev/Pods-taleb-showcase-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		FE770BDA329936A634CB8F7E /* Pods-taleb-showcase-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taleb-showcase-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-taleb-showcase-dev/Pods-taleb-showcase-dev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,10 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B344D3271DB129B600A21F92 /* Social.framework in Frameworks */,
+				B3F6D07B1DB11B600040B6D2 /* Accounts.framework in Frameworks */,
+				B344D3291DB12A1200A21F92 /* Twitter.framework in Frameworks */,
+				B344D3251DB1297500A21F92 /* libsqlite3.tbd in Frameworks */,
+				B344D3231DB1296600A21F92 /* libz.tbd in Frameworks */,
+				B344D3211DB1295A00A21F92 /* SystemConfiguration.framework in Frameworks */,
+				B344D31F1DB1295100A21F92 /* StoreKit.framework in Frameworks */,
+				B344D31D1DB1294500A21F92 /* Security.framework in Frameworks */,
+				B344D31B1DB1293800A21F92 /* QuartzCore.framework in Frameworks */,
+				B344D32B1DB12A3B00A21F92 /* MobileCoreServices.framework in Frameworks */,
+				B344D3191DB1292F00A21F92 /* CoreLocation.framework in Frameworks */,
+				B344D3171DB1292700A21F92 /* CoreGraphics.framework in Frameworks */,
+				B344D3151DB1291E00A21F92 /* CFNetwork.framework in Frameworks */,
+				B344D3131DB1291200A21F92 /* AudioToolbox.framework in Frameworks */,
+				B344D30D1DB1256F00A21F92 /* Parse.framework in Frameworks */,
+				B3138F861DB0227400AA4ADB /* Bolts.framework in Frameworks */,
+				B344D3111DB1257A00A21F92 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				8CC07948088143EC812D26DE /* Pods_taleb_showcase_dev.framework in Frameworks */,
 				B3138F891DB0228700AA4ADB /* FBSDKCoreKit.framework in Frameworks */,
 				B3138F8A1DB0228700AA4ADB /* FBSDKLoginKit.framework in Frameworks */,
-				B3138F861DB0227400AA4ADB /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +130,20 @@
 		835EC2002F1F4F83E55C6323 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B344D32A1DB12A3B00A21F92 /* MobileCoreServices.framework */,
+				B344D3281DB12A1200A21F92 /* Twitter.framework */,
+				B344D3261DB129B600A21F92 /* Social.framework */,
+				B344D3241DB1297500A21F92 /* libsqlite3.tbd */,
+				B344D3221DB1296600A21F92 /* libz.tbd */,
+				B344D3201DB1295A00A21F92 /* SystemConfiguration.framework */,
+				B344D31E1DB1295100A21F92 /* StoreKit.framework */,
+				B344D31C1DB1294500A21F92 /* Security.framework */,
+				B344D31A1DB1293800A21F92 /* QuartzCore.framework */,
+				B344D3181DB1292F00A21F92 /* CoreLocation.framework */,
+				B344D3161DB1292700A21F92 /* CoreGraphics.framework */,
+				B344D3141DB1291E00A21F92 /* CFNetwork.framework */,
+				B344D3121DB1291200A21F92 /* AudioToolbox.framework */,
+				B3F6D07A1DB11B600040B6D2 /* Accounts.framework */,
 				501392A73788B67874FE18BE /* Pods_taleb_showcase_dev.framework */,
 			);
 			name = Frameworks;
@@ -86,11 +152,21 @@
 		B3138F841DB0224F00AA4ADB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B344D30F1DB1257A00A21F92 /* ParseFacebookUtilsV4.framework */,
+				B344D30C1DB1256F00A21F92 /* Parse.framework */,
 				B3138F871DB0228700AA4ADB /* FBSDKCoreKit.framework */,
 				B3138F881DB0228700AA4ADB /* FBSDKLoginKit.framework */,
 				B3138F851DB0227400AA4ADB /* Bolts.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3138F8C1DB0E51400AA4ADB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3138F8D1DB0E53000AA4ADB /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		B359A10A1DAFD8FE007CAC3D = {
@@ -115,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				B3138F8B1DB0D99600AA4ADB /* taleb-showcase-dev.entitlements */,
+				B3138F8C1DB0E51400AA4ADB /* Services */,
 				B3138F841DB0224F00AA4ADB /* Frameworks */,
 				B359A1361DAFDC3F007CAC3D /* Util */,
 				B359A12B1DAFD957007CAC3D /* Resources */,
@@ -126,6 +203,7 @@
 				B359A11D1DAFD8FE007CAC3D /* Assets.xcassets */,
 				B359A11F1DAFD8FE007CAC3D /* LaunchScreen.storyboard */,
 				B359A1221DAFD8FE007CAC3D /* Info.plist */,
+				B3F6D0761DB0F6FB0040B6D2 /* GoogleService-Info.plist */,
 			);
 			path = "taleb-showcase-dev";
 			sourceTree = "<group>";
@@ -243,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B359A1301DAFD97B007CAC3D /* NotoSans-Bold.ttf in Resources */,
+				B3F6D0771DB0F6FB0040B6D2 /* GoogleService-Info.plist in Resources */,
 				B359A1211DAFD8FE007CAC3D /* LaunchScreen.storyboard in Resources */,
 				B359A1311DAFD97B007CAC3D /* NotoSans-BoldItalic.ttf in Resources */,
 				B359A1321DAFD97B007CAC3D /* NotoSans-Italic.ttf in Resources */,
@@ -308,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B359A1351DAFDC0D007CAC3D /* MaterialView.swift in Sources */,
+				B3138F8E1DB0E53000AA4ADB /* DataService.swift in Sources */,
 				B359A1191DAFD8FE007CAC3D /* ViewController.swift in Sources */,
 				B359A1171DAFD8FE007CAC3D /* AppDelegate.swift in Sources */,
 				B306F9011DB00C6200FFDE15 /* MaterialTextFiels.swift in Sources */,

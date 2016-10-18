@@ -7,4 +7,6 @@ target 'taleb-showcase-dev' do
 
   # Pods for taleb-showcase-dev
 pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
 end
