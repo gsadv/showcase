@@ -42,6 +42,7 @@
 		B359A1331DAFD97B007CAC3D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */; };
 		B359A1351DAFDC0D007CAC3D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1341DAFDC0D007CAC3D /* MaterialView.swift */; };
 		B359A1381DAFDC59007CAC3D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359A1371DAFDC59007CAC3D /* Constants.swift */; };
+		B3BEF3D11DB73E0400646FA5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BEF3D01DB73E0400646FA5 /* Post.swift */; };
 		B3F6D0771DB0F6FB0040B6D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3F6D0761DB0F6FB0040B6D2 /* GoogleService-Info.plist */; };
 		B3F6D07B1DB11B600040B6D2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6D07A1DB11B600040B6D2 /* Accounts.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,7 @@
 		B359A12F1DAFD97B007CAC3D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		B359A1341DAFDC0D007CAC3D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		B359A1371DAFDC59007CAC3D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3BEF3D01DB73E0400646FA5 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B3F6D0761DB0F6FB0040B6D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3F6D07A1DB11B600040B6D2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		DFC118728D11CD124A8F34F6 /* Pods-taleb-showcase-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taleb-showcase-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taleb-showcase-dev/Pods-taleb-showcase-dev.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 		B359A12A1DAFD947007CAC3D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B3BEF3D01DB73E0400646FA5 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				B306F9011DB00C6200FFDE15 /* MaterialTextFiels.swift in Sources */,
 				B359A1381DAFDC59007CAC3D /* Constants.swift in Sources */,
 				B306F8FF1DAFE71A00FFDE15 /* MaterialButton.swift in Sources */,
+				B3BEF3D11DB73E0400646FA5 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -203,26 +203,26 @@
                                                                             </constraints>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="SnT-h7-7Pu">
-                                                                            <frame key="frameInset" minX="60" width="100" height="50"/>
+                                                                            <frame key="frameInset" minX="60" width="160" height="50"/>
                                                                             <constraints>
-                                                                                <constraint firstAttribute="width" constant="100" id="j4A-GQ-tJ0"/>
+                                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="j4A-GQ-tJ0"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
                                                                             <color key="textColor" red="0.95686274510000002" green="0.31764705879999999" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="heart-empty" translatesAutoresizingMaskIntoConstraints="NO" id="HVC-24-hGX">
-                                                                            <frame key="frameInset" minX="170" width="50" height="50"/>
+                                                                            <frame key="frameInset" minX="230" width="50" height="50"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="50" id="Jhn-PU-TR5"/>
                                                                                 <constraint firstAttribute="height" constant="50" id="N4z-tl-J7F"/>
                                                                             </constraints>
                                                                         </imageView>
                                                                         <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="DbC-VR-TFm">
-                                                                            <frame key="frameInset" minX="230" width="100" height="50"/>
+                                                                            <frame key="frameInset" minX="290" width="40" height="50"/>
                                                                             <subviews>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1450" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrO-bL-SRL">
-                                                                                    <frame key="frameInset" width="100" height="41"/>
+                                                                                    <frame key="frameInset" width="40" height="21"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="width" constant="40" id="ZHO-cE-QtL"/>
                                                                                     </constraints>
@@ -231,7 +231,7 @@
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Likes" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38p-t0-j7G">
-                                                                                    <frame key="frameInset" minY="31" width="100" height="20"/>
+                                                                                    <frame key="frameInset" minY="11" width="40" height="40"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="width" constant="40" id="wVh-r0-3Ra"/>
                                                                                     </constraints>
@@ -243,7 +243,7 @@
                                                                         </stackView>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jiT-6b-5sI">
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jiT-6b-5sI" userLabel="Description">
                                                                     <frame key="frameInset" minY="55" width="330" height="100"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <constraints>
@@ -280,7 +280,10 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
+                                            <outlet property="descriptionText" destination="jiT-6b-5sI" id="3ge-18-Asd"/>
+                                            <outlet property="likesLbl" destination="jrO-bL-SRL" id="IMQ-ip-eTH"/>
                                             <outlet property="profileImg" destination="0hy-yQ-cOa" id="VtE-q7-Ich"/>
+                                            <outlet property="showCaseImage" destination="1bM-N6-jZd" id="eoK-Ug-Vfd"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

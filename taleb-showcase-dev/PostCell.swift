@@ -11,6 +11,11 @@ import UIKit
 class PostCell: UITableViewCell {
 
     @IBOutlet weak var profileImg: UIImageView!
+    @IBOutlet weak var descriptionText: UITextView!
+    @IBOutlet weak var showCaseImage: UIImageView!
+    @IBOutlet weak var likesLbl: UILabel!
+    
+    var post: Post!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,4 +30,10 @@ class PostCell: UITableViewCell {
 
     }
 
+    func configureCell(postIn: Post){
+        self.post = postIn
+        self.descriptionText.text = postIn.postDescription
+        self.likesLbl.text = "\(postIn.likes)"
+    }
+    
 }
